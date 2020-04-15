@@ -13,7 +13,7 @@ print(birthday)
 alive_days=(today-birthday).days
 #Print It
 print(alive_days)
-#Added 10 days to the current date
+#Added 10 days to the current date- You can also subtract it LOL
 tdelta=datetime.timedelta(days=10)
 #Print It
 print(today+tdelta)
