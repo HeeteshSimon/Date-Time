@@ -22,3 +22,9 @@ print(today.day)
 #Print WeekDay of Today's day
 #It Returns a number coz, Mon=0 ------Sun=6
 print(today.weekday())
+#Three ways to do dateTime lol
+#datetime.date(Y, M, D)
+#datetime.time(h, m, s, ms)
+#datetime.datetime(Y, M, D, h, m, s, ms)
+print(datetime.time(11, 58, 20, 15))
+
