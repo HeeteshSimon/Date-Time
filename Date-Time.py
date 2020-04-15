@@ -34,4 +34,8 @@ hour_delta=datetime.timedelta(hours=10)
 #Print It using the 3rd way and added hourdelta to get next day with adding of 10hrs
 print(datetime.datetime.now() + hour_delta)
 #Checking the Time zone module
-print(datetime.datetime.now(tz=pytz.UTC))
+datetime_today=datetime.datetime.now(tz=pytz.UTC)
+#Pacifice Timezone
+datetime_pacific=datetime_today.astimezone(pytz.timezone('US/Pacific'))
+#print It
+print(datetime_pacific)
