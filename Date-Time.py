@@ -29,5 +29,5 @@ print(today.weekday())
 print(datetime.time(11, 58, 20, 15))
 #Created Hour delta to add 10 hrs to current time
 hour_delta=datetime.timedelta(hours=10)
-#Print It using the 3rd way and added hourdelta to get next day
+#Print It using the 3rd way and added hourdelta to get next day with adding of 10hrs
 print(datetime.datetime.now() + hour_delta)
