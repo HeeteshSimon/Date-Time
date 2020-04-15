@@ -17,3 +17,8 @@ print(alive_days)
 tdelta=datetime.timedelta(days=10)
 #Print It
 print(today+tdelta)
+#Print todays' Day
+print(today.day)
+#Print WeekDay of Today's day
+#It Returns a number coz, Mon=0 ------Sun=6
+print(today.weekday())
