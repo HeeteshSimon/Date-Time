@@ -39,3 +39,6 @@ datetime_today=datetime.datetime.now(tz=pytz.UTC)
 datetime_pacific=datetime_today.astimezone(pytz.timezone('US/Pacific'))
 #print It
 print(datetime_pacific)
+#loop to find all TimeZones
+for tz in pytz.all_timezones:
+    print(tz)
