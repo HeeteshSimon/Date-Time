@@ -42,3 +42,7 @@ print(datetime_pacific)
 #loop to find all TimeZones
 for tz in pytz.all_timezones:
     print(tz)
+
+#String Formatting with dates
+# 2020-04-16--> April 16,2020
+print(datetime_pacific.strftime('%B %d, %Y'))
