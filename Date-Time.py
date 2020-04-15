@@ -45,4 +45,10 @@ for tz in pytz.all_timezones:
 
 #String Formatting with dates
 # 2020-04-16--> April 16,2020
+#Use strftime (f=Formatting)
 print(datetime_pacific.strftime('%B %d, %Y'))
+
+#April 16,2020-->DateTime Object (2020,04,16)
+#Use strptime (p=Parsing)
+datetime_thing=datetime.datetime.strptime('April 16,2020','%B %d,%Y')
+print(datetime_thing)
