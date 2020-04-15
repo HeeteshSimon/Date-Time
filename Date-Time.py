@@ -1,5 +1,7 @@
 #Import the DateTime Module
 import datetime
+#import the time zone module
+import pytz
 #Wrote the code to check the working of module-By Checking the Current date
 today=datetime.date.today()
 #Print It
@@ -31,3 +33,5 @@ print(datetime.time(11, 58, 20, 15))
 hour_delta=datetime.timedelta(hours=10)
 #Print It using the 3rd way and added hourdelta to get next day with adding of 10hrs
 print(datetime.datetime.now() + hour_delta)
+#Checking the Time zone module
+print(datetime.datetime.now(tz=pytz.UTC))
