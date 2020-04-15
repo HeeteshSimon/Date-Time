@@ -5,3 +5,5 @@ birthday=datetime.date(1996,5,19)
 print(birthday)
 alive_days=(today-birthday).days
 print(alive_days)
+tdelta=datetime.timedelta(days=10)
+print(today+tdelta)
